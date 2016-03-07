@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC0447961C8DA37000F9F326 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0447951C8DA37000F9F326 /* ProductViewController.swift */; };
+		FC0447981C8DC7C600F9F326 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0447971C8DC7C600F9F326 /* ContactViewController.swift */; };
 		FC68A2811C8D976F0025AF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68A2801C8D976F0025AF4A /* AppDelegate.swift */; };
-		FC68A2831C8D976F0025AF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68A2821C8D976F0025AF4A /* ViewController.swift */; };
 		FC68A2861C8D976F0025AF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC68A2841C8D976F0025AF4A /* Main.storyboard */; };
 		FC68A2881C8D976F0025AF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC68A2871C8D976F0025AF4A /* Assets.xcassets */; };
 		FC68A28B1C8D976F0025AF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC68A2891C8D976F0025AF4A /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC0447951C8DA37000F9F326 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		FC0447971C8DC7C600F9F326 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		FC68A27D1C8D976F0025AF4A /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC68A2801C8D976F0025AF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC68A2821C8D976F0025AF4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC68A2851C8D976F0025AF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC68A2871C8D976F0025AF4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC68A28A1C8D976F0025AF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				FC68A2801C8D976F0025AF4A /* AppDelegate.swift */,
-				FC68A2821C8D976F0025AF4A /* ViewController.swift */,
 				FC68A2841C8D976F0025AF4A /* Main.storyboard */,
 				FC68A2871C8D976F0025AF4A /* Assets.xcassets */,
 				FC68A2891C8D976F0025AF4A /* LaunchScreen.storyboard */,
 				FC68A28C1C8D976F0025AF4A /* Info.plist */,
+				FC0447951C8DA37000F9F326 /* ProductViewController.swift */,
+				FC0447971C8DC7C600F9F326 /* ContactViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC68A2831C8D976F0025AF4A /* ViewController.swift in Sources */,
+				FC0447961C8DA37000F9F326 /* ProductViewController.swift in Sources */,
 				FC68A2811C8D976F0025AF4A /* AppDelegate.swift in Sources */,
+				FC0447981C8DC7C600F9F326 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				FC68A2A71C8D976F0025AF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC68A2A81C8D976F0025AF4A /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				FC68A2AA1C8D976F0025AF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC68A2AB1C8D976F0025AF4A /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				FC68A2AD1C8D976F0025AF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
